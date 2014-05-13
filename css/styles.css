@@ -21,6 +21,10 @@ section {
 	width: 50px;
 }
 
+.color-1 {
+	background: #e1e1e1;
+}
+
 
 /* Show Grid */
 .showgrid {
