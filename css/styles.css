@@ -1,6 +1,33 @@
-/* Set Your Own Margin & Padding */
+.container {
+	padding: 40px 40px 60px 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: justify;
+}
+
+.grid_6 {
+	background: #e1e1e1;
+}
+
+h1 {
+	font-family: 'Expletus Sans', sans-serif;
+	color: #00a1e0;
+}
+
 h2, h3, p {
-	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #58595b;
+}
+
+h1 a {
+
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: #58595b;
+}
+
+ h1 a:hover {
+	color: #00a1e0;
 }
 
 /* Layout for Style Tile*/
@@ -11,19 +38,63 @@ section {
 .color-1,
 .color-2,
 .color-3,
-.pattern-1,
-.pattern-2,
-.pattern-3 {
-	border: 1px solid #000;
+.color-4,
+.color-5 {
+	border: 1px solid #58595b;
 	float: left;
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
 }
 
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #58595b;
+	float: left;
+	margin: 0 10px;
+	height: 100px;
+	width: 100px;
+}
+
 .color-1 {
+	background: #00a1e0;
+}
+
+.color-2 {
+	background: #d87900;
+}
+
+.color-3 {
+	background: #58595b;
+}
+
+.color-4 {
 	background: #e1e1e1;
 }
+
+.color-5 {
+	background: white;
+}
+
+.pattern-1 {
+	background: url('../img/subtle_dots.png') repeat;
+}
+
+.pattern-2 {
+	background: url('../img/triangle.png') repeat;
+}
+
+.pattern-3 {
+	background: url('../img/fabric.png') repeat;
+}
+
+.symbol {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 
 /* Show Grid */
